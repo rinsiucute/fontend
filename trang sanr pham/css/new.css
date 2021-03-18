@@ -1,0 +1,1473 @@
+*,p,h1,h2,h3,h4,h5{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+img{
+    max-width: 100%;
+}
+#dong1{
+    padding: 10px 0px;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+}
+#dong1>div.container{
+    display: flex;
+}
+#dong1 > div > div.item1{
+    display: flex;
+    justify-content: space-between;
+}
+#dong1 > div > div.item1 > div{
+    display: flex;
+    align-items: center;
+}
+#dong1 > div > div.item1 > div > p{
+    font-size: 11px;
+    font-weight: 500;
+    padding: 0px 10px;
+}
+#dong1 > div > div.item1 > button{
+    display: none;
+}
+#dong1 > div > div.item2{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+#dong1 > div > div.item2 > div.item{
+    display: flex;
+}
+#dong1 > div > div.item2 > div > div.product1 > div.menu-an{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    border: 1px solid #e5e5e5;
+    border-bottom: none;
+    opacity: 0;
+    visibility: hidden;
+    top: 120%;
+    transition: all ease 0.2s;
+}
+#dong1 > div > div.item2 > div > div.product1 > div.menu-an>a{
+    padding: 5px 15px;
+    border-bottom: 1px solid #e5e5e5;
+    background: white;
+    text-decoration: none;
+    color: black;
+}
+#dong1 > div > div.item2 > div > div.product1 > div.menu-an>a:hover{
+    background-color:#f5f5f5 ;
+}
+#dong1 > div > div.item2 > div > div.product1 > a{
+    padding: 10px 10px;
+    text-decoration: none;
+    color: black;
+}
+#dong1 > div > div.item2 > div > div.product1:hover > div.menu-an{
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+    z-index: 1;
+}
+#dong1 > div > div.item2 > div.item > a{
+    padding-left: 10px;
+   /* color: black;
+    */
+    text-decoration: none;
+}
+/* dòng 2 */
+#dong2{
+    background: white;
+    padding: 24px 0px;
+    position: relative;
+}
+#dong2>.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#dong2>.container >.item1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#dong2>.container >.item1>a{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+#dong2>.container >.item1>button{
+    background: white;
+    border: none;
+    display: none;
+}
+#dong2>.container>.item2{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+#dong2>.container>.item2>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#dong2 > div > div.item2 > div.product1{
+    margin: auto;
+}
+#dong2 > div > div.item2 > div.product1 > div> a{
+    padding-right: 20px;
+    font-weight: 600;
+}
+#dong2 > div > div.item2 > div> div,#dong2 > div > div.item2 > div> div>a{
+    padding: 10px 3px;
+    text-decoration: none;
+}
+#dong2 > div > div.item2 > div.product1 > div:nth-child(1) > div > a{
+    padding: 5px 10px;
+    border-bottom: 1px solid gainsboro;
+    background: white;
+    color: black;
+    text-decoration: none;
+}
+#dong2 > div > div.item2 > div.product1 > div:nth-child(1) > div > a:hover{
+    background: gainsboro;
+}
+#dong2 > div > div.item2 > div.product1 > div.sub-menu:nth-child(2){
+    position: static;
+}
+#dong2 > div > div.item2 > div.product1 > div.sub-menu:nth-child(2) > div{
+    top: calc(100% - 24px);
+    width: 100%;
+    transform: translateX(0);
+    left: 0;
+}
+#dong2 > div > div.item2 > div.product1 > div.sub-menu:nth-child(2) > div > div.dong1{
+    border-bottom: 1px solid;
+    padding: 10px 0px;
+}
+#dong2 > div > div.item2 > div.product1 > div.sub-menu:nth-child(2) > div > div.dong1>.container>a{
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+#dong2 > div > div.item2 > div.product1 > div.sub-menu:nth-child(2) > div > div.dong1>.container>a:hover{
+    color: red;
+}
+#dong2 > div > div.item2 > div.product1 > div.sub-menu:nth-child(2) > div > div.dong2 > div{
+    display: flex;
+    padding: 15px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+#dong2 > div > div.item2 > div.product1 > div.sub-menu:nth-child(2) > div > div.dong2 > div > div.text2{
+    width: 30%;
+    position: relative;
+}
+#dong2 > div > div.item2 > div.product1 > div.sub-menu:nth-child(2) > div > div.dong2 > div > div.text1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+#dong2 > div > div.item2 > div.product1 > div.sub-menu:nth-child(2) > div > div.dong2 > div > div.text1>div{
+    display: flex;
+    flex-direction: column;
+}
+#dong2 > div > div.item2 > div.product1 > div.sub-menu:nth-child(2) > div > div.dong2 > div > div.text1 > div > h7{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+#dong2 > div > div.item2 > div.product1 > div.sub-menu:nth-child(2) > div > div.dong2 > div > div.text1 > div > a{
+    text-decoration: none;
+    padding: 5px;
+}
+#dong2 > div > div.item2 > div.product1 > div.sub-menu:nth-child(2) > div > div.dong2 > div > div.text2 > div{
+    background: rgba(31,31,31,0)!important;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#dong2 > div > div.item2 > div.product1 > div.sub-menu:nth-child(2) > div > div.dong2 > div > div.text2 > div:hover{
+    background: rgba(31,31,31,.1)!important;
+}
+#dong2 > div > div.item2 > div.product1 > div.sub-menu:nth-child(2) > div > div.dong2 > div > div.text2 > div:hover >a>i{
+    margin-left: 5px;
+}
+#dong2 > div > div.item2 > div.product1 > div.sub-menu:nth-child(2) > div > div.dong2 > div > div.text2 > div>a{
+    padding: 10px 15px;
+    background-color: white;
+    text-decoration: none;
+}
+#dong2 > div > div.item2 > div.product1 > div:nth-child(3) > div{
+    flex-direction: row;
+    width: 650px;
+}
+#dong2 > div > div.item2 > div.product1 > div:nth-child(3) > div>div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#dong2 > div > div.item2 > div.product1 > div:nth-child(3) > div>div>div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#dong2 > div > div.item2 > div.product1 > div:nth-child(3) > div>div>div > h7{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+#dong2 > div > div.item2 > div.product1 > div:nth-child(3) > div>div>div > a{
+    text-decoration: none;
+    padding: 5px;
+}
+#dong2 > div > div.item2 > div.product1 > div:nth-child(4) > div{
+    width: 150px;
+}
+#dong2 > div > div.item2 > div.product1 > div:nth-child(4) > div > a{
+    text-decoration: none;
+}
+#dong2 > div > div.item2 > div.product1 > div:nth-child(5) > div{
+    width: 100px;
+}
+#dong2 > div > div.item2 > div.product1 > div:nth-child(5) > div > a{
+    text-decoration: none;
+}
+
+                /* dong3 */
+#dong3{
+    border-top: 1px solid #a6a6a6;
+}
+#dong3 > div:nth-child(1){
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#dong3 > div:nth-child(2){
+    display: flex;
+
+}
+#dong3 > div:nth-child(1)>a{
+    color: #909090;
+    text-decoration: none;
+}
+#dong3 > div:nth-child(1)>p{
+    color: #909090;
+    margin: 0px 20px;
+}
+
+#dong3>.container>.item1>.product1{
+    width: 538px;
+}
+#dong3>.container>.item1>.product2{
+    display: flex;
+    margin-top: 20px;
+}
+#dong3>.container>.item1>.product2>div{
+    width: 97px;
+    height: 97px;
+    opacity: 0.5;
+    margin-right: 15px;
+}
+#dong3>.container>.item1>.product2>div>img{
+    width: 97px;
+    height: 96px;
+}
+
+
+
+
+
+
+
+
+
+
+#dong3>.container>.item2{
+    width: 59%;
+    margin-left: 20px;
+}
+#dong3>.container>.item2>.dong2{
+    display: flex;
+    align-items: flex-end;
+    padding: 10px 0px;
+}
+#dong3>.container>.item2>.dong3{
+    display: flex;
+    padding: 10px 0px;
+}
+#dong3>.container>.item2>.dong4{
+    display: flex;
+    padding: 10px 0px;
+}
+#dong3>.container>.item2>.dong4>.product1{
+    height: 70px;
+    width: 70px;
+    position: relative;
+}
+#dong3>.container>.item2>.dong4>.product1>a{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#dong3>.container>.item2>.dong4>.product1>a.active{
+    border-bottom: 1px solid;
+    background: rgba(0,0,0,0.1);
+}
+#dong3>.container>.item2>.dong5{
+    display: flex;
+    padding: 10px 0px;
+}
+#dong3>.container>.item2>.dong6{
+    display: flex;
+    padding: 10px 0px;
+    flex-wrap: wrap;
+}
+#dong3>.container>.item2>.dong6>button{
+    background: white;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #ddd;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    outline: none;
+}
+#dong3>.container>.item2>.dong6>button.active{
+    border: 1px solid black;
+    color: black;
+}
+#dong3>.container>.item2>.dong6>button:disabled{
+    background: #f5f5f5;
+    text-decoration: line-through;
+}
+#dong3 > div > div.item2 > div.dong7 > div.product1 > select{
+    width: 95px;
+    font-size: 17px;
+    padding: 10px 15px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#dong3 > div > div.item2 > div.dong7{
+    padding-right: 20px;
+}
+#dong3 > div > div.item2 > div.dong7 > div.product1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#dong3 > div > div.item2 > div.dong7 > div.product1 > button:nth-child(3){
+    width: 140px;
+    font-size: 18px;
+    padding: 10px 15px;
+    border: 1px black solid;
+    background: white;
+    transition: all ease 0.2s;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#dong3 > div > div.item2 > div.dong7 > div.product1 > button:nth-child(3):hover{
+    background: black;
+    color: white;
+}
+#dong3 > div > div.item2 > div.dong7 > div.product1 > button:nth-child(2){
+    height: 50px;
+    font-size: 18px;
+    padding: 10px 50px;
+    border: 1px black solid;
+    background:black;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#dong3 > div:nth-child(2) > div.item2 > div.dong0{
+    justify-content: space-between;
+    display: flex;
+}
+#dong3 > div:nth-child(2) > div.item2 > div.dong0 > div{
+    display: flex;
+}
+#dong3 > div:nth-child(2) > div.item2 > div.dong0 > div > div{
+    display: flex;
+}
+
+#dong4{
+    padding: 96px 0px;
+}
+#dong4>.container>.item1{
+    text-align: center;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5!important;
+}
+#dong4>.container>.item1>a{
+    padding: 15px 0px;
+    margin: 0px 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+}
+#dong4>.container>.item1>a.active{
+    color: red;
+    border-bottom: 1px solid red;
+}
+#dong4>.container>.item2>div{
+    display: none;
+}
+#dong4>.container>.item2>div.active{
+    display: block;
+}
+#dong4 > div > div.item2 > div.active > div > div > div > div:nth-child(2) > p.mb-0 > a{
+    cursor: pointer;
+}
+
+            /* Dong5 */
+#dong5{
+    padding: 96px 0px;
+}
+#dong5>.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#dong5>.container>.product{
+    width: 23%;
+}
+#dong5>.container>.product>.item{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    /* margin-bottom: 24px; */
+}
+#dong5>.container>.product>.item>.new{
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    padding: 5px 10px;
+    background-color: white;
+    z-index: 1;
+}
+#dong5>.container>.product>.item>.sale{
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    z-index: 1;
+}
+#dong5>.container>.product>.item>.item2{
+    
+}
+#dong5>.container>.product>.item>.item2>img:nth-child(1){
+    
+}
+#dong5>.container>.product>.item>.item2>img:nth-child(2){
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all ease 0.2s;
+}
+#dong5>.container>.product>.item:hover>.item2>img:nth-child(2){
+
+    opacity: 1;
+    visibility: visible;
+
+}
+#dong5>.container>.product>.item>.item3{
+    display: flex;
+    justify-content: space-around;
+}
+#dong5>.container>.product>.item>.item3>button{
+    opacity: 0;
+    visibility: hidden;
+    background: white;
+    border: 0px;
+    outline: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    text-align: center;
+}
+#dong5>.container>.product>.item:hover>.item3>button{
+    bottom: 15px !important;
+    opacity: 1;
+    visibility: visible;
+
+
+}
+#dong5>.container>.product>.item:hover>.item3>button>ion-icon{
+    height: 40px;
+    line-height: 40px;
+
+}
+#dong5>.container>.product>.item>.item3>button:nth-child(1){
+    transition: all ease 0.2s;
+    transition-delay: 0s;
+    position: absolute;
+    bottom: -15px;
+    left: 55px;
+
+}
+#dong5>.container>.product>.item>.item3>button:nth-child(2){
+    transition: all ease 0.2s;
+    transition-delay: 0.1s;
+    position: absolute;
+    bottom: -15px;
+    left: 105px;
+    
+}
+#dong5>.container>.product>.item>.item3>button:nth-child(3){
+    transition: all ease 0.2s;
+    transition-delay: 0.2s;
+    position: absolute;
+    bottom: -15px;
+    left: 155px;
+
+}
+
+                    /* dong 6 */
+#dong6{
+    padding: 96px 0px;
+}
+#dong6>.container>h1{
+    padding-bottom: 32px;
+    text-align: center;
+}
+#dong6>.container>.item1{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 24px;
+}
+#dong6>.container>.item2{
+    width: 100%;
+    padding: 24px;
+    border: 1px solid;
+    margin-bottom: 10px;
+}
+#dong6 > div > div.item2 > div > div:nth-child(1){
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background: #f5f5f5;
+    line-height: 100px;
+    text-align: center;
+    font-size: 30px;
+    color: #cccccc;
+}
+#dong6 > div > div.item2 > div > div.col-12.col-md > div.row.mb-6 > div:nth-child(1) > div{
+    display: flex;
+}
+
+
+
+
+#dong7{
+    padding: 64px 0px;
+    background-color: #f5f5f5;
+}
+#dong7>.container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#dong7>.container>.item{
+    display: flex;
+}
+#dong7>.container>.item>div>svg{
+    color: red;
+    margin-right: 20px;
+}
+#dong7>.container>.item>div>p{
+    font-size: 11px;
+    color: #cccccc;
+
+}
+#dong7>.container>.item>div>h5{
+    font-size: 14px;
+}
+
+
+#dong11{
+    padding: 96px 0px;
+    background-color: black;
+    color: white;
+}
+#dong11>.container{
+    text-align: center;
+}
+#dong11>.container>.item1{
+    padding-bottom: 32px ;
+}
+#dong11>.container>.item2{
+    padding-bottom: 80px ;
+    width: 538px;
+    margin: auto;
+}
+#dong11>.container>.item2>form>input{
+    background: #303030;
+    border: #303030;
+    padding: 17px 30px;
+    color: white;
+    width: 75%;
+    margin-bottom: 20px;
+}
+#dong11>.container>.item2>form>button{
+    background: #4c4c4c;
+    border: #4c4c4c;
+    padding: 17px 30px;
+    color: white;
+}
+#dong11>.container>.item3{
+    display: flex;
+    justify-content: space-between;
+}
+#dong11>.container>.item3>div{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+#dong11 > div > div.item3 > div.product1 > h4{
+    padding-bottom: 20px;
+}
+#dong11 > div > div.item3 > div.product1 > div > a{
+    color: #a6a6a6;
+    padding-right: 10px;
+}
+#dong11 > div > div.item3 > div.product1 > div > a:hover{
+    color: #909090!important;
+}
+#dong11 > div > div.item3 > div> a{
+    color: #a6a6a6;
+    text-decoration: none;
+}
+#dong11 > div > div.item3 > div> a:hover{
+    color: #909090!important;
+}
+
+
+
+#dong12{
+    background: black;
+    border-top: 1px solid #a6a6a6;
+    padding: 24px 0px;
+}
+#dong12>.container{
+    display: flex;
+    justify-content: space-between;
+}
+#dong12>.container>p{
+    color: #909090;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     /* bảng size */
+
+
+
+
+
+.sub-menu:hover .sub-item{
+    visibility: visible;
+    opacity: 1;
+    top: 100%;
+}
+.sub-menu{
+    position: relative;
+}
+.sub-item{
+    position: absolute;
+    display: flex;
+    border: 1px solid;
+    flex-direction: column;
+    top: 120%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all ease 0.2s;
+    transform: translateX(-25%);
+    padding: 10px;
+    background-color: white;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* gior hangf */
+#giohang{
+    position: fixed;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 9999999999999;
+    background: rgba(31,31,31,.1)!important;
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: space-between;
+   /* box-sizing: border-box;
+    */
+    height: 100%;
+}
+#giohang>.item1{
+    flex-grow: 1;
+}
+#giohang>.item2{
+    width: 470px;
+    background-color: white;
+    position: relative;
+    overflow: scroll;
+    height: 100%;
+    display: blocks;
+}
+#giohang>.item2>button{
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    font-size: 25px;
+    right: 10px;
+}
+#giohang>.item2>.dong1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 24px 0px;
+}
+#giohang>.item2>.dong2{
+    padding: 32px;
+    border-top: 1px solid rgba(17,17,17,.2);
+}
+#giohang>.item2>.dong2>.item{
+    padding: 12px 0px;
+    display: flex;
+    align-items: center;
+}
+#giohang>.item2>.dong2>.item>div{
+    padding-left: 10px;
+}
+#giohang>.item2>.dong2>.item>div>a{
+    padding: 5px 0px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+#giohang>.item2>.dong2>.item>div>p{
+    padding: 5px 0px;
+    color: #a6a6a6;
+    font-size: 17px;
+    font-weight: 500;
+}
+#giohang>.item2>.dong2>.item>div>form>select{
+    padding: 5px 15px;
+    font-size: 20px;
+}
+#giohang>.item2>.dong3{
+    padding: 32px;
+    background-color:#f5f5f5 ;
+    display: flex;
+    justify-content: space-between;
+}
+#giohang>.item2>.dong3>div{
+    font-size: 20px;
+    font-weight: 600;
+}
+#giohang>.item2>.dong4{
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+}
+#giohang>.item2>.dong4>button{
+    width: 100%;
+    padding: 12px 0px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+}
+#giohang>.item2>.dong4>a{
+    padding: 12px 0px;
+    background-color: white;
+    font-size: 20px;
+    color: black;
+    border: 1px solid black;
+    text-decoration: none;
+    width: 100%;
+   text-align: center;
+    transition: all ease 0.2s;
+}
+#giohang>.item2>.dong4>a:hover{
+    background-color:black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/* xem san pham */
+#outlay{
+    position: absolute;
+    top : 0px;
+    left: 0px;
+    width: 100%;
+    height: 10000px;
+    background: rgba(0,0,0,0.1);
+    bottom: 0px;
+    right: 0;
+    z-index: 1000;
+    display: none;
+}
+#xemsanpham{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow-y: auto;
+   /* height: 100%;
+    */
+    width: 100%;
+    z-index: 1001;
+    display: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100%;
+}
+#xemsanpham>.container{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background : white;
+    justify-content: space-between;
+    padding: 0px;
+    z-index: 1001;
+}
+#xemsanpham>.container>button{
+    position: absolute;
+    top : 10px;
+    right: 10px;
+    background: white;
+    outline: none;
+    border: none;
+    width: 50px;
+    height: 50px;
+    font-size: 35px;
+    line-height: 50px;
+    z-index: 1;
+    background: rgba(0,0,0,0);
+}
+#xemsanpham>.container>.item1>a{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background: #ff6f61;
+    padding: 13px 0px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+#xemsanpham>.container>.item1{
+    position: relative;
+    width: 39%;
+}
+#xemsanpham>.container>.item2{
+    width: 59%;
+}
+#xemsanpham>.container>.item2>.dong2{
+    display: flex;
+    align-items: flex-end;
+   padding: 10px 0px;
+}
+#xemsanpham>.container>.item2>.dong3{
+    display: flex;
+   padding: 10px 0px;
+}
+#xemsanpham>.container>.item2>.dong4{
+    display: flex;
+   padding: 10px 0px;
+}
+#xemsanpham>.container>.item2>.dong4>.product1{
+    height: 70px;
+    width: 70px;
+    position: relative;
+}
+#xemsanpham>.container>.item2>.dong4>.product1>a{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#xemsanpham>.container>.item2>.dong4>.product1>a.active{
+    border-bottom: 1px solid;
+    background: rgba(0,0,0,0.1);
+}
+#xemsanpham>.container>.item2>.dong5{
+    display: flex;
+    padding: 10px 0px;
+}
+#xemsanpham>.container>.item2>.dong6{
+    display: flex;
+    padding: 10px 0px;
+    flex-wrap: wrap;
+}
+#xemsanpham>.container>.item2>.dong6>button{
+    background: white;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #ddd;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    outline: none;
+}
+#xemsanpham>.container>.item2>.dong6>button.active{
+    border: 1px solid black;
+    color: black;
+}
+#xemsanpham>.container>.item2>.dong6>button:disabled{
+    background: #f5f5f5;
+    text-decoration: line-through;
+}
+#xemsanpham > div > div.item2 > div.dong7 > div.product1 > select{
+    width: 95px;
+    font-size: 17px;
+    padding: 10px 15px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#xemsanpham > div > div.item2 > div.dong7{
+    padding-right: 20px;
+}
+#xemsanpham > div > div.item2 > div.dong7 > div.product1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#xemsanpham > div > div.item2 > div.dong7 > div.product1 > button:nth-child(3){
+    width: 140px;
+    font-size: 18px;
+    padding: 10px 15px;
+    border: 1px black solid;
+    background: white;
+    transition: all ease 0.2s;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#xemsanpham > div > div.item2 > div.dong7 > div.product1 > button:nth-child(3):hover{
+    background: black;
+    color: white;
+}
+#xemsanpham > div > div.item2 > div.dong7 > div.product1 > button:nth-child(2){
+    width: 350px;
+    height: 50px;
+    font-size: 18px;
+    padding: 10px 15px;
+    border: 1px black solid;
+    background:black;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+/* tìm kiếm */
+#timkiem{
+    position: fixed;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 9999999999999;
+    background: rgba(31,31,31,.1)!important;
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: space-between;
+   /* box-sizing: border-box;
+    */
+    height: 100%;
+}
+#timkiem>.item1{
+    flex-grow: 1;
+}
+#timkiem>.item2{
+    width: 470px;
+    background-color: white;
+    position: relative;
+    overflow: scroll;
+    height: 100%;
+    display: blocks;
+}
+#timkiem>.item2>button{
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    font-size: 25px;
+    right: 10px;
+}
+#timkiem>.item2>.dong1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 24px 0px;
+}
+#timkiem>.item2>.dong2{
+    padding: 32px;
+    border-top: 1px solid rgba(17,17,17,.2);
+}
+#timkiem > div.item2 > div.dong2 > form > select{
+    width: 100%;
+    padding: 14px 54px 14px 24px;
+    font-size: 20px;
+}
+#timkiem>.item2>.dong3{
+    padding: 0px 32px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgba(17,17,17,.2);
+    display: flex;
+}
+#timkiem>.item2>.dong3>input{
+    padding: 14px 54px 14px 24px;
+    font-size: 20px;
+    outline: none;
+    border: 1px solid rgba(17,17,17,.2);
+   ;
+    background: white;
+    flex-grow: 1;
+    border-right: none;
+}
+#timkiem>.item2>.dong3>button{
+    padding: 14px 28px ;
+    font-size: 20px;
+    border: 1px solid rgba(17,17,17,.2);
+    background: white;
+    border-left: none;
+}
+#timkiem>.item2>.dong4{
+    padding: 32px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgba(17,17,17,.2);
+    display: flex;
+    flex-direction: column;
+}
+#timkiem>.item2>.dong4>.product2{
+    padding: 24px 0px;
+    border-bottom: 1px solid rgba(17,17,17,.2);
+    width: 100%;
+}
+#timkiem>.item2>.dong4>.product2>a{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-decoration: none;
+    align-items: center;
+}
+#timkiem>.item2>.dong4>.product2>a>div{
+    flex-grow: 1;
+    padding: 0px 16px;
+}
+#timkiem>.item2>.dong5{
+    padding: 32px;
+}
+#timkiem>.item2>.dong5>a{
+    padding: 32px;
+    width: 100%;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: start;
+}
+#timkiem > div.item2 > div.dong5 > a > svg{
+    margin-left: 10px;
+    transition: all ease 0.2s;
+}
+#timkiem > div.item2 > div.dong5 > a:hover > svg{
+    margin-left: 20px;
+}
+
+            /* bang size */
+
+#bangsize{
+    position: fixed;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 9999999999999;
+    background: rgba(31,31,31,.1)!important;
+    top: 0;
+    left: 0;
+    height: 100%;
+    /* display: none; */
+    opacity: 0;
+    visibility: hidden;
+}
+#bangsize.active{
+    opacity: 1;
+    visibility: visible;
+}
+#bangsize>.conten{
+    width: 800px;
+    margin: auto;
+    background: white;
+    padding: 32px;
+    position: relative;
+    z-index: 2;
+}
+#bangsize>.close{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    z-index: 9;;
+}
+#close{
+    position: absolute;
+    top: 10px;
+    right: calc(50% - 360px);
+    background: white;
+    color: black;
+    border: none;
+    font-size: 30px;
+}
+#bangsize>.conten>.item2{
+    border-bottom: 1px solid;
+}
+#bangsize>.conten>.item1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 24px 0px;
+    border-bottom: 1px solid ;
+}
+#bangsize>.conten>div{
+    padding: 32px 0px;
+}
+#bangsize>.conten>div>.product1{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 24px;
+}
+#bangsize>.conten>div>.product1>p{
+    
+    font-size: 25px;
+    font-weight: 500;
+}
+#bangsize > div > div > div.product1 > div > button{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    background: white;
+    padding: 10px;
+    outline: none;
+}
+/* #bangsize > div > div.item3 > div.product1 > div > button.active,
+#bangsize > div > div.item3 > div.product1 > div > button:hover */
+#bangsize > div > div > div.product1 > div > button.active,
+#bangsize > div > div > div.product1 > div > button:hover{
+    background: black !important;
+    color: white;
+}
+div.table-responsive > table > thead > tr > th,
+div.table-responsive > table > tbody > tr > td{
+    padding: 20px;
+}
+#bangsize > div.conten > div.item3 > div.row{
+    justify-content: space-between;
+}
+#bangsize > div.conten > div.item3 > div.row>div{
+    width: 48%;
+}
+#vienngoai{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
+}
+
+
+
+@media all and (max-width : 1200px){
+    #dong1 > div > div.item2.active{
+        display: flex;
+   }
+    #dong1 > div > div.item2 > div > div.product1 > div.menu-an, #dong1 > div > div.item2, #dong1 > div > div.item2 > div > div.product1:hover > div.menu-an {
+        display: none;
+   }
+    #dong1 > div > div.item1 > button{
+        display: block;
+        background: inherit;
+        border: none;
+   }
+    #dong1 > div > div.item1{
+        width: 100%;
+   }
+    #dong1>div.container,#dong1 > div > div.item2,#dong1 > div > div.item2 > div.item{
+        flex-direction: column;
+   }
+    #dong1 > div > div.item2 > div > div.product1 > div.menu-an{
+        position: static;
+        visibility: visible;
+        opacity: 1;
+       /* display: none;
+        */
+   }
+    #dong1 > div > div.item2 > div > div.product1.active > div.menu-an{
+        display: flex;
+   }
+    #dong1 > div > div.item2 > div > div,#dong1 > div > div.item2 > div.item > a{
+        padding-top: 5px;
+   }
+    #dong1 > div > div.item2 > div.item:nth-child(3){
+        flex-direction: row;
+   }
+   /* dong 2 */
+    #dong2>.container >.item1>button{
+        display: block;
+   }
+    #dong2 > div > div.item2 > div.product1 > div.sub-menu:nth-child(2) > div > div.dong2 > div > div.text2,#dong2>.container>.item2{
+        display: none;
+   }
+    #dong2>.container>.item2.active{
+        display: flex;
+   }
+    #dong2 > div > div.item2 > div.product1 > div:nth-child(3) > div, #dong2 > div > div.item2.active > div.product1>div,#dong2 > div > div.item2.active > div,#dong2>.container >.item1{
+        width: 100%;
+   }
+    #dong2 > div > div.item2.active > div.product1,#dong2>.container>.item2.active,#dong2>.container{
+        flex-direction: column;
+        width: 100%;
+   }
+    #dong2 > div > div.item2.active > div.product2{
+        justify-content: start;
+   }
+    /* #dong2 > div > div.item2 > div.product1 > div:nth-child(3) > div, */
+    .sub-menu:hover .sub-item{
+        display: none;
+   }
+    .sub-item{
+        position: static;
+        display: none;
+        border: none;
+        flex-direction: column;
+        top: 120%;
+        opacity: 1;
+        visibility: visible;
+        transition: all ease 0.2s;
+        transform: translateX(0);
+        padding: 10px;
+   }
+    .sub-menu.active>.sub-item{
+        display: flex;
+   }
+
+
+
+   #dong3>.container>.item1>.product1{
+       width: auto;
+   }
+    /* xem sản phảm */
+
+    #xemsanpham{
+        padding: 20px;
+        width: 450px ;
+        background-color: white;
+   }
+    #xemsanpham>.container{
+        flex-direction: column;
+   }
+    body{
+        overflow-y: scroll;
+   }
+    #xemsanpham>.container>.item1{
+        width: 100%;
+   }
+    #xemsanpham>.container>.item2{
+        width: 100%;
+   }
+    #xemsanpham > div > div.item2 > div.dong7 > div.product1 > select{
+        width: 100%;
+   }
+    #xemsanpham > div > div.item2 > div.dong7 > div.product1 {
+        flex-direction: column;
+   }
+    #xemsanpham > div > div.item2 > div.dong7 > div.product1 > button:nth-child(3){
+        width: 100%;
+   }
+    #xemsanpham > div > div.item2 > div.dong7 > div.product1 > button:nth-child(2){
+        width: 100%;
+   }
+}
+
+
+
+
+
+@media all and (max-width : 950px){
+    #bangsize>.conten{
+        width: 500px;
+   }
+    #bangsize > div.conten > div.item3 > div.row{
+        flex-direction: column;
+   }
+    #bangsize > div.conten > div.item3 > div.row>div{
+        width: 100%;
+   }
+    #close{
+        right: calc(50% - 210px);
+   }
+   
+
+
+    
+}
+
+
+
+
+
+@media all and (max-width : 768px){
+    #dong3 > div:nth-child(2){
+        flex-direction: column;
+    }
+    /* body{
+        overflow-y: scroll;
+    } */
+    #dong3 > div > div.item2 > div.dong7,
+    #dong3>.container>.item2{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    #dong3 > div > div.item2 > div.dong7 > div.product1 > select,
+    #dong3>.container>.item1,
+    #dong3 > div > div.item2 > div.dong7 > div.product1 > button:nth-child(3),
+    #dong3>.container>.item1>.product1,
+    #dong3 > div > div.item2 > div.dong7 > div.product1 > button:nth-child(2),
+    #dong3 > div > div.item2 > div.dong7 > div.product1 > select{
+        width: 100%;
+    }
+    
+    
+    #dong3 > div > div.item2 > div.dong7 > div.product1 {
+        flex-direction: column;
+    }
+    #dong5>.container>.product{
+        width: 48%;
+    }
+    
+    #dong11>.container>.item3{
+        flex-wrap: wrap;
+    }
+    #dong11>.container>.item3>div{
+        width: 48%;
+    }
+    
+}
+
+
+
+
+
+@media all and (max-width : 567px){
+    #xemsanpham{
+        width: 100%;
+   }
+   #bangsize>.conten{
+    width: 99%;
+}
+#bangsize > div.conten > div.item3 > div.row{
+    flex-direction: column;
+}
+#close{
+    right: 24px;
+}
+#dong11>.container>.item2{
+    width: 95%;
+
+}
+#dong11>.container>.item2>form>input{
+    width: 75%;
+}
+#dong7>.container>.item{
+    width: 48%;
+}
+}
+
+
+
