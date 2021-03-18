@@ -1,0 +1,402 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h5,h6{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px; padding: 0px;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+/* ============================= header ================================ */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 980px;
+    height: 135px;
+    margin: auto;
+}
+
+
+header>.ngonngu{
+    display: flex;
+}
+header>.ngonngu >a{
+    padding: 0px 5px;
+    cursor: pointer;
+
+}
+header>.ngonngu >a:hover{
+    color: #bfad1d;
+}
+header > .menu >a{
+    padding: 0px 10px;
+    color: black;
+    text-decoration: none;
+}
+header > .menu >a:hover{
+    color: #bfad1d ;
+}
+
+header>.logo{
+    height: 135px;
+}
+
+/* ============================== main ============================== */
+/* dong1 */
+
+main>.dong1{
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-image: url(../img/anh1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* dong2 */
+main>.dong2{
+    width: 980px;
+    margin: auto; 
+    padding: 96px 0px;
+}
+
+main>.dong2>div{
+    width: 780px;
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main>.dong2>div>h2{
+    font-size: 25px;
+    font-weight: 400;
+    padding: 20px 0px;
+}
+main>.dong2>div>span{
+    font-size: 16px;
+    letter-spacing: 0.03em;
+}
+
+/* dong3 */
+
+main>.dong3{
+    width: 100%;
+    height: 90vh;
+    background-attachment: fixed;
+    background-image: url(../img/anh2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* dong4 */
+main>.dong4{
+    text-align: center;
+    padding-bottom: 96px;
+}
+main>.dong4>p{
+    font-size: 16px;
+    letter-spacing: 0.08em;
+    width: 780px;
+    font-weight: 350;
+    color: black;
+    word-wrap: break-word;
+    margin: auto;
+    padding: 10px;
+    opacity: 0;
+}
+
+main>.dong4>.hinhanh{
+    width: 700px;
+    margin: auto;
+}
+main>.dong4>.hinhanh>.item{
+    display: inline;
+    cursor: pointer;
+    transition: all ease 0.2s;
+ 
+}
+main>.dong4>.hinhanh>.item:hover{
+    opacity: 0.2;
+}
+main>.dong4>.hinhanh>.item>img{
+    width: 223px;
+    height: 217px;
+    padding: 5px;
+
+}
+
+main>.dong4>h2{
+    font-size: 25px;
+    font-weight: 400;
+    padding: 10px;
+    opacity: 0;
+}
+main>.dong4>h5{
+    font-size: 16px;
+    font-weight: 200;
+    padding: 35px;
+    width: 550px;
+    text-align: center;
+    margin: auto;
+    letter-spacing: 0.03em;
+    line-height: 1.5em;
+    opacity: 0;
+}
+main>.dong4>a{
+
+    border-radius: 30px;
+    text-align: center;
+    background: white;
+    border: 2px solid black;
+    transition: all ease 0.2s;
+    padding: 10px 45px;
+    color: black;
+    text-decoration: none;
+    opacity: 0;
+}
+main>.dong4>a:hover{
+    color: white;
+    background-color: black;
+}
+/* dong5 */
+main>.dong5{
+    background-attachment: fixed;
+    background-image: url(../img/anh10.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 95vh;
+}
+/* dong 6 */
+main>.dong6{
+    width: 980px;
+    text-align: right;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 300;
+    opacity: 0;
+}
+/* dong7 */
+main>.dong7{
+    padding: 150px 0px;
+    text-align: left;
+    width: 980px;
+    margin: auto;
+}
+main>.dong7>h2{
+    font-size: 25px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+main>.dong7>p{
+    width: 780px;
+    font-size: 16px;
+    font-size: 200;
+    letter-spacing: 0.08em;
+    margin-bottom: 30px;
+}
+main>.dong7>a{
+    border-radius: 30px;
+    text-align: center;
+    background: white;
+    border: 2px solid black;
+    transition: all ease 0.2s;
+    padding: 10px 45px;
+    color: black;
+    text-decoration: none;
+}
+main>.dong7>a:hover{
+    color: white;
+    background-color: black;
+}
+
+/* foter */
+footer{
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+footer>.container>p{
+    /* width: 980px; */
+    margin: auto;
+
+}
+footer>.container>form{
+    /* width: 980px; */
+    margin: auto;
+    padding: 20px 0px;
+}
+
+footer>.container>form>input{
+    padding: 5px 10px;
+    width: 430px;
+    border: none;
+    outline: none;
+}
+footer>.container>form>button{
+    width: 190px;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+#thongbao{
+    padding: 15px 110px;
+    color: red;
+    display: none;
+
+}
+footer>.container>.thongtin{
+    /* width: 980px; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    margin-top: 30px;
+}
+
+footer>.container>.thongtin>.item1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+footer>.container>.thongtin>.item1>div{
+    width: 122px;
+    height: 45px;
+    background: white;
+    color: black;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 25px;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: all ease 0.2s;
+}
+footer>.container>.thongtin>.item1>div:hover{
+    background: black;
+    color: white;
+}
+footer>.container>.thongtin>.item1>p{
+    
+}
+
+
+footer>.container>.thongtin>.item2{
+    
+}
+footer>.container>.thongtin>.item2>a{
+    font-size: 30px;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+footer>.container>.thongtin>.item2>a{
+    
+}
+footer>.container>.thongtin>.item3>span{
+    text-decoration: underline;
+}
+.thongbaothanhcong{
+    display: none;
+}
+
+/* modal hinh anh */
+
+.modalhinhanh{
+    display: none;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    justify-content: space-between;
+    height: 100%;
+    z-index: 9999999999999999999999999999999;
+}
+.modalhinhanh>.item{
+    flex-grow: 1;
+    background: rgba(0, 0, 0, 0.8);
+    height: 100%;
+    cursor: pointer;
+}
+.modalhinhanh>div.hinhanh{
+
+}
+.modalhinhanh>div.hinhanh>div.item{
+   height: 100vh;
+   background: rgba(0, 0, 0, 0.8);
+   padding-top: 50px;
+    /* display: inline-block;
+    transition: all ease 0.5s;
+    opacity: 0;
+    visibility: hidden; */
+    display: none;
+
+}
+.modalhinhanh>div.hinhanh>div.item>img{
+    height: 75vh;
+}
+.modalhinhanh>div.hinhanh>div.item.active{
+    /* visibility: visible;
+    opacity: 1; */
+    display: inline-block;
+}
+body > div.modalhinhanh > div.dong{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    border: 0;
+    outline: 0;
+    background: inherit;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+body > div > div:nth-child(3) > svg{
+    position: absolute;
+    top: 50vh;
+    right:  112px;
+    color: white;
+    font-size: 35px;
+}
+body > div > div:nth-child(1) > svg{
+    position: absolute;
+    top: 50vh;
+    left:  112px;
+    color: white;
+    font-size: 35px;
+}
+
+
+
+/* ====================== reponsive ============================*/
+
+@media all and (max-width: 980px){
+    header{
+        width: 100%;
+    }
+}
